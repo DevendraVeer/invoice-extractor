@@ -29,16 +29,6 @@ python load.py
 
 5. 5. Run the reports in `reports.sql` using pgAdmin's Query Tool.
 
-## Sample output
-**Top 5 vendors by spend:**
-| name | total_spend |
-|---|---|
-| [paste 2-3 real rows from your Report 2 output] | |
-
-**Possible duplicate invoices:**
-| vendor_id | invoice_date | total | how_many |
-|---|---|---|---|
-| [paste your Report 5 output row] | | | |
 
 ## What I'd add next
 - A FastAPI layer to expose this data over HTTP endpoints.
